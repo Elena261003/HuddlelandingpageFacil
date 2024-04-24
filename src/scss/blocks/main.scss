@@ -1,1 +1,51 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 375px;
+  background-color: #fff;
+  font-family: poppins, sans-serif;
 
+  .start {
+    padding: 0px 40px 0px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .h1-start {
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 24px;
+  }
+  .p-start {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 48px;
+  }
+  .button-get-started {
+    width: 200px;
+    height: 40px;
+    background-color: #ff52c1;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    align-content: center;
+    margin: 0px 48px 104px 48px;
+  }
+  .rates {
+    padding: 120px 107px 180px 107px;
+  }
+  .rate {
+    font-size: 54px;
+  }
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+  .text {
+    color: #808e9a;
+    font-size: 15px;
+  }
+}
